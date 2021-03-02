@@ -1,0 +1,122 @@
+/*-----------------------------------------------------------------------------
+=01 BASE STYLES
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.border
+{
+  border-left-style: solid;
+  border-color: gray;
+  border-left-width: thick;
+
+  font-size: 14px;
+  font-style: italic;
+
+  padding: 20px;
+}
+
+.radius
+{
+  border-radius: 150px;
+}
+
+.gray
+{
+  color: gray;
+}
+
+.italic
+{
+
+
+
+
+}
+
+.alignright
+{
+  padding: 0 0 0 30px;
+}
+
+body
+{
+  background: #DEDEDE;
+}
+
+h1
+{
+  font-size: 45px;
+  margin-bottom: 0;
+}
+
+h2
+{
+  font-size: 32px;
+  margin-bottom: 8px;
+
+}
+
+a
+{
+  color: red;
+  text-decoration: none;
+}
+
+.margin
+{
+  margin-top: 0;
+}
+
+/* Clear Class */
+.clear {
+	clear: both;
+}
+
+
+/*-----------------------------------------------------------------------------
+=02 LAYOUT
+-----------------------------------------------------------------------------*/
+
+#container
+{
+  font-family: 'Lato', sans-serif;
+  width: 1000px;
+  margin: 0 auto 0 auto;
+}
+
+#header
+{
+
+}
+
+#main
+{
+  width: 600px;
+  background: white;
+  padding: 15px;
+
+  float: left;
+}
+
+#sidebar
+{
+  width: 300px;
+
+  margin-left: 10px;
+
+  padding: 15px;
+  background: white;
+  float: left;
+}
+
+#footer
+{
+  padding: 15px;
+  width: 600px;
+}
